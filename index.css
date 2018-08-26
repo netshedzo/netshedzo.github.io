@@ -10,9 +10,11 @@
     visibility: visible;
     position: absolute;
     top:10px;
-    font-weight: 30px;
+    font-weight: bold;
+    font-size:40px;
     color:red;
-    font-family:cursive;
+    
+    
   }
 }
 @media only screen and (min-width: 1300px)
