@@ -1,0 +1,296 @@
+
+@media only screen and (max-width: 1000px)
+{
+  body
+  {
+    visibility: hidden;
+  }
+  .not-suppoted
+  {
+    visibility: visible;
+    position: absolute;
+    top:10px;
+    font-weight: 30px;
+    color:red;
+    font-family:cursive;
+  }
+}
+@media only screen and (min-width: 1300px)
+{
+  .not-suppoted
+  {
+    visibility: hidden;
+  }
+  body
+  {
+    background-color: black;
+    margin: 0px 0px;
+
+  }
+header
+{
+  background-image: url("back1.jpg");
+  background-attachment: fixed;
+  height:400px;
+  width:100%;
+
+}
+.head-head
+{
+  height:50px;
+  width:600px;
+  position: absolute;
+  top:20px;
+  right:0px;
+
+}
+table
+{
+  width: 100%;
+  color:green;
+  font-family: cursive;
+  font-size: 15px;
+}
+.Particles-head
+{
+position: absolute;
+top:110px;
+width:80%;
+left:10%;
+
+height:250px;
+}
+
+.logo
+{
+
+  position: absolute;
+  top:20px;
+  left:10px;
+  width:150px;
+  height:40px;
+}
+a
+{
+  text-decoration: none;
+}
+.logo-img
+{
+  height: auto;
+  width: 100%;
+  opacity: 0.9;
+}
+/* ---- stats.js ---- */
+.avata
+{
+  position: absolute;
+  top:350px;
+  left:600px;
+  height:180px;
+  width:180px;
+
+}
+.avata-img
+{
+  height: 100%;
+  width: 100%;
+  opacity: 0.9;
+
+}
+.handler
+{
+  position: absolute;
+  top:400px;
+  right:20px;
+  height:30px;
+  width:320px;
+
+}
+
+
+.fa-instagram,.fa-github,.fa-linkedin,.fa-youtube,.fa-facebook,.fa-twitter {
+  font-size: 35px;
+    color:green;
+    cursor: pointer;
+}
+
+.Welcome
+{
+position: absolute;
+top:540px;
+width:100%;
+height:80px;
+text-align: center;
+color:green;
+font-size:30px;
+font-style: italic;
+}
+.un-ln
+{
+  color:green;
+}
+.un-ln1
+{
+color:blue;
+opacity: 0.7;
+
+}
+
+.left-end, .right-end
+{
+
+color:green;
+position: absolute;
+top:530px;
+height:300px;
+width:500px;
+}
+.left-end
+{
+  left:4px;
+}
+.right-end
+{
+  right: 4px;
+}
+.box
+{
+  height: 100px;
+  width:100%;
+
+}
+.box-head
+{
+  position:absolute;
+  height: 100px;
+  width :100px;
+
+
+}
+.box-body
+{
+position: absolute;
+right: 0px;
+height: 100px;
+width: 400px;
+text-align: center;
+
+font-size: 18px;
+font-family:cursive;
+}
+
+.fa-laptop-code , .fa-code ,.fa-chess,.fa-address-card ,.fa-award ,.fa-user-graduate
+{
+  color:green;
+  font-size: 60px;
+  text-align: center;
+  width: 100px;
+  height:100px;
+}
+
+.code-body
+{
+  width:80%;
+  height:950px;
+  position: absolute;
+  top:1200px;
+  left:10%;
+  border:1px solid  green;
+  overflow: hidden;
+}
+.box-body-head
+{
+  background-color: green;
+  height:20px;
+  width:100%;
+  border-radius: 20px;
+  text-align: center;
+  color:black;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: arial;
+  margin-bottom: 2px;
+}
+.code-head1
+{
+  width:80%;
+  height:240px;
+  position: absolute;
+  top:910px;
+  left:10%;
+
+  overflow: hidden;
+
+  color:green;
+  text-align: center;
+}
+.code-head2
+{
+  width:80%;
+  height:140px;
+  position: absolute;
+  top:2240px;
+  left:10%;
+
+
+  overflow: hidden;
+
+  color:green;
+  text-align: center;
+}
+.code-body2
+{
+  width:80%;
+  height:1750px;
+  position: absolute;
+  top:2450px;
+  left:10%;
+  border:1px solid  green;
+  overflow: hidden;
+
+}
+.cc-aa
+{
+font-family: cursive;
+font-weight: bold;
+font-size: 25px;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+.th
+{
+  cursor:zoom-in;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+
+    background-color:rgba(36,36,36,0.4);
+    color: yellowgreen;
+    font-size: 25px;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+
+
+    z-index: 1;
+}
+
+.tooltiptext
+{
+
+top:200px;
+left:-600px;
+width:500px;
+height:auto;
+
+
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+}
