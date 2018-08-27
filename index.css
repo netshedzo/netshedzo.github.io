@@ -1,5 +1,5 @@
 
-@media only screen and (max-width: 1200px)
+@media only screen and (max-width: 1279px)
 {
   body
   {
@@ -17,7 +17,7 @@
     
   }
 }
-@media only screen and (min-width: 1200px)
+@media only screen and (min-width: 1279px)
 {
   .not-suppoted
   {
