@@ -82,12 +82,12 @@ a
   width: 100%;
   opacity: 0.9;
 }
-/* ---- stats.js ---- */
+
 .avata
 {
   position: absolute;
   top:350px;
-  left:44%;
+  left:50%;
   height:128px;
   width:128px;
 
